@@ -13,7 +13,7 @@ function loadText_pla(){
     }
   }
   xmlHttp_pla.onreadystatechange = checkStatus_result;
-  xmlHttp_pla.open("GET", "http://127.0.0.1/NPS.txt", true);
+  xmlHttp_pla.open("GET", "./NPS.txt", true);
   xmlHttp_pla.send(null);
 
 }

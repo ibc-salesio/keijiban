@@ -14,7 +14,7 @@ function loadText_result(){
     }
   }
   xmlHttp_result.onreadystatechange = checkStatus_result;
-  xmlHttp_result.open("GET", "http://127.0.0.1/result.txt", true);
+  xmlHttp_result.open("GET", "./result.txt", true);
   xmlHttp_result.send(null);
 
 }

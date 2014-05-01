@@ -17,7 +17,7 @@ function loadText_schedule(){
     }
   }
   xmlHttp_schedule.onreadystatechange = checkStatus_schedule;
-  xmlHttp_schedule.open("GET", "http://127.0.0.1/schedule.txt", true);
+  xmlHttp_schedule.open("GET", "./schedule.txt", true);
   xmlHttp_schedule.send(null);
 
 }
