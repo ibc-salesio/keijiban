@@ -1,0 +1,45 @@
+今日の予定<br>
+サッカー<br>
+4me vs 5cs 9:40~10:05<br>
+3me vs 3ad 10:10~10:35<br>
+教員サッカー 11:40~12:05<br>
+|
+バスケットボール<br>
+5ad vs 5ee 9:40~10:05<br>
+1a vs 1c 10:10~10:35<br>
+2me vs 2ee 10:40~11:05<br>
+3ad vs 3ee 11:10~11:35<br>
+4ee vs 4cs 11:40~12:05<br>
+|
+バレーボール<br>
+2ad vs 2ee 9:40~10:00<br>
+1a vs 1d 10:05~10:25<br>
+5ee vs 5me 10:30~10:50<br>
+3ad vs 3cs 10:55~11:15<br>
+4ee vs 4me 11:20~11:40<br>
+|
+ハンドボール<br>
+2me vs 2cs 9:40~9:55<br>
+5ee vs 5cs 10:00~10:15<br>
+4ee vs 4me 10:20~10:35<br>
+3me vs 3ee 10:40~10:55<br>
+1a vs 1c 11:00~11:15<br>
+|
+卓球<br>
+3cs vs 3me 9:40~10:05<br>
+5ee vs 5cs 10:10~10:35<br>
+4ee vs 4me 10:40~11:05<br>
+1b vs 1c 11:10~11:35<br>
+2ee vs 2cs 11:40~12:05<br>
+|
+テニスA<br>
+4ad vs 4cs 9:40~10:20<br>
+2ee vs 2me 10:25~10:45<br>
+5ee vs 5cs 10:50~11:10<br>
+3ee vs 3me 11:15~11:55<br>
+|
+テニスB<br>
+4ad vs 4cs 9:40~10:00<br>
+2ee vs 2me 10:05~10:45<br>
+5ee vs 5cs 10:50~11:30<br>
+3ee vs 3me 11:35~11:55<br>
