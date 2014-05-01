@@ -13,7 +13,7 @@ function loadText_pla(){
     }
   }
   xmlHttp_pla.onreadystatechange = checkStatus_result;
-  xmlHttp_pla.open("GET", "http://192.168.0.20/keijiban/NPS.txt", true);
+  xmlHttp_pla.open("GET", "./NPS.txt", true);
   xmlHttp_pla.send(null);
 
 }
