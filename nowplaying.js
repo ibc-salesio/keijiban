@@ -47,7 +47,7 @@ function scrMsg_nowpla(){
 	}
 	//if(i==0) time=3000;
 	if (time==null) time=1000;
-	setTimeout("scrMsgpla()",time);
+	setTimeout("scrMsg_nowpla()",time);
 }
 
 function msgTxtpla() {
