@@ -1,6 +1,6 @@
 var flag_pla=false;
-var xmlHttp_nowpla;
-var ary;
+var xmlHttp_pla;
+var nowpla;
 
 function loadText_pla(){
   if (window.XMLHttpRequest){
@@ -13,14 +13,14 @@ function loadText_pla(){
     }
   }
   xmlHttp_pla.onreadystatechange = checkStatus_result;
-  xmlHttp_pla.open("GET", "./NPS.txt", true);
+  xmlHttp_pla.open("GET", "http://192.168.0.20/keijiban/NPS.txt", true);
   xmlHttp_pla.send(null);
 
 }
 
 function checkStatus_pla(){
   if (xmlHttp_pla.readyState == 4 && xmlHttp_pla.status == 200){
-    ary = xmlHttp_pla.responseText();
+    nowpla = xmlHttp_pla.responseText;
   }
 }
 
@@ -50,9 +50,9 @@ function scrMsg_nowpla(){
 	setTimeout("scrMsg_nowpla()",time);
 }
 
-function msgTxtpla() {
+function msgTxt_pla() {
 	var drift = "";
-	{drift = "<font>NowPlaying…"+ary+"</font>";
+	{drift = "<font>NowPlaying…"+nowpla+"</font>";
 	return drift;}	
 }
 
