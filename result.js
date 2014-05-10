@@ -37,16 +37,13 @@ function scrMsg(){
 		flag=true;
 	}
 	else {
-	//	alert(ary[i].length+"文字");
 		time=ary[i].length * 2000;
-	//	alert(time+"ミリ秒");
 		while(ary.length==0){
 			tmp.innerHTML = "Now Loading.";
 		}
 		tmp.innerHTML = msgTxt();
 		i++;
 	}
-	//if(i==0) time=3000;
 	if (time==null) time=1000;
 	setTimeout("scrMsg()",time);
 }

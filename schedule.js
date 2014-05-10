@@ -30,10 +30,6 @@ function checkStatus_schedule(){
 
 function scrMsg_schedule(){
 	var tmp = document.getElementById('schedule');
-//	if(i_schedule==ary_schedule.length){
-//		flag_schedule=false;
-//		i_schedule=true;
-//	}
 	if(!flag_schedule){
 		loadText_schedule();
 		flag_schedule=true;
