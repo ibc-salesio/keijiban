@@ -1,11 +1,7 @@
 <?php
 
 require_once("twitteroauth/twitteroauth.php");
-
-$consumerKey = "xxxxxxxxxx";
-$consumerSecret = "xxxxxxxxxx";
-$accessToken = "xxxxxxxxxx";
-$accessTokenSecret = "xxxxxxxxxx";
+require_once("pass.php");
 
 $twObj = new TwitterOAuth($consumerKey,$consumerSecret,$accessToken,$accessTokenSecret);
 
